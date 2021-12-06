@@ -9,7 +9,7 @@ license-file = "./LICENSE"
 name = "ical-daladim"
 readme = "./README.md"
 repository = "https://github.com/daladim/ical-rs"
-version = "0.7.0"
+version = "0.8.0"
 
 [badges]
 
