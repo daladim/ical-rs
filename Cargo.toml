@@ -2,14 +2,14 @@
 authors = ["daladim"]
 categories = ["parsing"]
 description = "Ical/Vcard parser for Rust"
-documentation = "https://docs.rs/ical"
+documentation = "https://docs.rs/ical-daladim"
 homepage = "https://github.com/daladim/ical-rs"
 keywords = ["ical", "vcard", "parser"]
 license-file = "./LICENSE"
 name = "ical-daladim"
 readme = "./README.md"
 repository = "https://github.com/daladim/ical-rs"
-version = "0.8.0"
+version = "0.8.1"
 
 [badges]
 
