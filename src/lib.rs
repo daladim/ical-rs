@@ -1,36 +1,10 @@
-//! ical-rs 0.4.0
+//! ical-daladim
 //!
-//! This is a library to parse the `ICalendar` format defined in
-//! [RFC5545](http://tools.ietf.org/html/rfc5545), as well as similar formats
-//! like `VCard`.
+//! This is a fork of the [ical](https://docs.rs/ical/latest/ical/) crate, because I needed to tag a version on a specific commit.
 //!
-//! There are probably some issues to be taken care of, but the library should work for most
-//! cases. If you like to help out and
-//! would like to discuss any API changes, please [contact me](dev@halium.fr) or create an issue.
+//! You most likely won't find anything interesting, please use the upstream version instead.
 //!
-//! The initial goal was to make a port from the [ical.js](https://github.com/mozilla-comm/ical.js)
-//! library in JavaScript and
-//! many code/algorithms was taken from it but in order to but more 'Rusty' a complete rewrite
-//! have been made.
 //!
-//! ## [Documentation](https://peltoche.github.io/ical-rs/ical/)
-//!
-//! ## Installing
-//!
-//! Put this in your `Cargo.toml`:
-//!
-//! ```toml
-//! [dependencies]
-//! ical = "0.4.*"
-//! ```
-//!
-//! There is several ways to use crate::Ical depending on the level of parsing you want. Some new
-//! wrapper/formater could appeare in the next releases.
-//!
-//! By default all the features are included but you can choose to include in you
-//! project only the needed ones.
-//!
-
 #[macro_use]
 extern crate thiserror;
 

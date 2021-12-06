@@ -1,21 +1,21 @@
 [package]
-authors = ["Peltoche <dev@halium.fr>"]
+authors = ["daladim"]
 categories = ["parsing"]
 description = "Ical/Vcard parser for Rust"
 documentation = "https://docs.rs/ical"
-homepage = "https://github.com/Peltoche/ical-rs"
+homepage = "https://github.com/daladim/ical-rs"
 keywords = ["ical", "vcard", "parser"]
 license-file = "./LICENSE"
-name = "ical"
+name = "ical-daladim"
 readme = "./README.md"
-repository = "https://github.com/Peltoche/ical-rs"
-version = "0.6.0"
+repository = "https://github.com/daladim/ical-rs"
+version = "0.7.0"
 
 [badges]
 
 [badges.travis-ci]
 branch = "master"
-repository = "https://travis-ci.org/Peltoche/ical-rs"
+repository = "https://travis-ci.org/daladim/ical-rs"
 
 
 
